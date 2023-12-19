@@ -1,8 +1,8 @@
 <template>
   <header>
-    <div class="wrapper p-4 d-flex justify-content-between">
+    <div class="p-4 d-flex justify-content-between align-items-center">
       <HeaderLogo />
-      <HeaderNav />
+      <HeaderNavWrapper />
     </div>
     <div class="ad m-5 p-5">
       <h6 class="mb-3">fresh & tasty bakery every day</h6>
@@ -13,19 +13,19 @@
         necessitatibus vel molestiae porro eveniet repudiandae neque earum
         doloribus debitis magnam!
       </p>
-      <button class="mt-3 px-4 py-2">Explore our products</button>
+      <button class="mt-4 px-4 py-2">Explore our products</button>
     </div>
   </header>
 </template>
 
 <script>
 import HeaderLogo from "./HeaderLogo.vue";
-import HeaderNav from "./HeaderNav.vue";
+import HeaderNavWrapper from "./HeaderNavWrapper.vue";
 export default {
   name: "Header",
   components: {
     HeaderLogo,
-    HeaderNav,
+    HeaderNavWrapper,
   },
 };
 </script>
