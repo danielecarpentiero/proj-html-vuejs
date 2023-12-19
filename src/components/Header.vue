@@ -1,0 +1,68 @@
+<template>
+  <header>
+    <div class="wrapper p-4 d-flex justify-content-between">
+      <HeaderLogo />
+      <HeaderNav />
+    </div>
+    <div class="ad m-5 p-5">
+      <h6 class="mb-3">fresh & tasty bakery every day</h6>
+      <h1>The Perfect Fresh Bread</h1>
+      <p class="mt-4">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, impedit
+        dolores ratione veritatis, mollitia nobis autem ducimus laborum velit
+        necessitatibus vel molestiae porro eveniet repudiandae neque earum
+        doloribus debitis magnam!
+      </p>
+      <button class="mt-3 px-4 py-2">Explore our products</button>
+    </div>
+  </header>
+</template>
+
+<script>
+import HeaderLogo from "./HeaderLogo.vue";
+import HeaderNav from "./HeaderNav.vue";
+export default {
+  name: "Header",
+  components: {
+    HeaderLogo,
+    HeaderNav,
+  },
+};
+</script>
+
+<style scoped>
+header {
+  height: 80vh;
+  background-image: url("../assets/img/hero-header-bakery.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ad {
+  width: 35%;
+  h6 {
+    text-transform: uppercase;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  p {
+    line-height: 30px;
+  }
+}
+button {
+  border-radius: 5px;
+  background-color: white;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  &:hover {
+    background-color: #55328b;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+}
+</style>
