@@ -32,6 +32,7 @@ export default {
 
 <style scoped>
 header {
+  color: #88828f;
   height: 80vh;
   background-image: url("../assets/img/hero-header-bakery.jpg");
   background-size: cover;
@@ -44,8 +45,8 @@ header {
     text-transform: uppercase;
   }
   h1 {
-    font-weight: 700;
     font-size: 4rem;
+    color: #55328b;
   }
   p {
     line-height: 30px;
@@ -59,6 +60,7 @@ button {
   font: inherit;
   cursor: pointer;
   outline: inherit;
+  color: #55328b;
   &:hover {
     background-color: #55328b;
     color: white;

@@ -62,6 +62,7 @@ export default {
   ul {
     width: 100%;
     li {
+      color: #55328b;
       list-style-type: none;
       text-transform: uppercase;
       &:hover {
