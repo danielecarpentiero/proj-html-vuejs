@@ -41,9 +41,7 @@ header {
 
 .ad {
   width: 35%;
-  h6 {
-    text-transform: uppercase;
-  }
+
   h1 {
     font-size: 4rem;
     color: #55328b;

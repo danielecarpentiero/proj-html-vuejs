@@ -35,7 +35,7 @@ export default {
           link: "#",
         },
         {
-          name: "Journal",
+          name: "journals",
           link: "#",
         },
         {
