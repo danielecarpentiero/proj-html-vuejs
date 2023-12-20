@@ -23,4 +23,38 @@ export const store = reactive({
       priceRange: "$18.00 - $52.00",
     },
   ],
+  Jumbos: [
+    {
+      title: "Tell us what you have in mind",
+      number: "01",
+      subtitle: "manual ingredients selection",
+      background: "src/assets/img/bakery-process-1.jpg",
+      paragraph:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.",
+    },
+    {
+      title: "We start baking",
+      number: "02",
+      subtitle: "sweet & delicious",
+      background: "src/assets/img/bakery-process-2.jpg",
+      paragraph:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.",
+    },
+    {
+      title: "dont just take our word for it",
+      number: "",
+      subtitle:
+        "Finally found an alternative to the mass produced products. Something that incorporatesr eal organic ingredients, nutrient dense wellness while promoting sustainability and activity.",
+      background: "",
+      paragraph: "Rachel Cooper, Founder",
+    },
+    {
+      title: "Delivered to your home",
+      number: "03",
+      subtitle: "baked to order & gift wrapped",
+      background: "src/assets/img/bakery-process-3.jpg",
+      paragraph:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.",
+    },
+  ],
 });

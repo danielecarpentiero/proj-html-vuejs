@@ -1,5 +1,5 @@
 <template>
-  <div class="col-2" v-for="sweet in sweetiesFromStore" :key="sweet.name">
+  <div class="col-2" v-for="sweet in store.sweeties">
     <img :src="sweet.img" alt="" />
     <h4 class="my-3">{{ sweet.name }}</h4>
     <h6>{{ sweet.priceRange }}</h6>
@@ -7,14 +7,14 @@
 </template>
 
 <script>
-import { store } from "../store"; // Importa il tuo store correttamente
+import { store } from "../store";
 
 export default {
   name: "ThirdCookies",
-  computed: {
-    sweetiesFromStore() {
-      return store.sweeties; // Accedi direttamente agli sweeties dallo store
-    },
+  data() {
+    return {
+      store,
+    };
   },
 };
 </script>

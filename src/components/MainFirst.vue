@@ -10,11 +10,7 @@
         Start shopping
       </button>
     </div>
-    <div
-      class="col-4"
-      v-for="(sweet, index) in store.sweeties.slice(0, 2)"
-      :key="index"
-    >
+    <div class="col-4" v-for="sweet in store.sweeties.slice(0, 2)">
       <img :src="sweet.img" alt="" />
       <h4 class="my-3">{{ sweet.name }}</h4>
       <h6>{{ sweet.priceRange }}</h6>
