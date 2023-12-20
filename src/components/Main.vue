@@ -1,13 +1,16 @@
 <template>
-  <MainFirstSection />
+  <MainFirst />
+  <MainSecond />
 </template>
 
 <script>
-import MainFirstSection from "./MainFirstSection.Vue";
+import MainFirst from "./MainFirst.vue";
+import MainSecond from "./MainSecond.vue";
 export default {
   name: "Main",
   components: {
-    MainFirstSection,
+    MainFirst,
+    MainSecond,
   },
 };
 </script>

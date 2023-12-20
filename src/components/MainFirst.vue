@@ -3,8 +3,8 @@
     <div class="box">
       <h6 class="mb-4">our products</h6>
       <h2>
-        All our delectable pastries are backed fresh in our Kitchen every
-        morning, and are made with all natural, all organic ingredients.
+        All our delectable pastries are backed fresh in our Kitchen very
+        morning, and are made with all- natural, all organic ingredients.
       </h2>
       <button class="d-flex align-items-center primary mt-5 px-3 py-2">
         Start shopping
@@ -21,11 +21,15 @@
 
 <script>
 export default {
-  name: "MainFirstSection",
+  name: "MainFirst",
 };
 </script>
 
 <style scoped>
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 .box {
   h2 {
     line-height: 45px;
