@@ -1,27 +1,37 @@
 <template>
   <div class="container d-flex justify-content-between">
-    <div class="box">
+    <div class="mx-5">
       <h6 class="mb-4">our products</h6>
       <h2>
-        All our delectable pastries are backed fresh in our Kitchen very
+        All our delectable pastries are backed fresh in our Kitchen every
         morning, and are made with all- natural, all organic ingredients.
       </h2>
       <button class="d-flex align-items-center primary mt-5 px-3 py-2">
         Start shopping
       </button>
     </div>
-    <div class="box mx-4">
-      <img src="../assets/img/blackberry-stuffed-bread-800x1020.jpg" alt="" />
-    </div>
-    <div class="box">
-      <img src="../assets/img/cherry-cake-800x1020.jpg" alt="" />
+    <div
+      class="col-4"
+      v-for="(sweet, index) in store.sweeties.slice(0, 2)"
+      :key="index"
+    >
+      <img :src="sweet.img" alt="" />
+      <h4 class="my-3">{{ sweet.name }}</h4>
+      <h6>{{ sweet.priceRange }}</h6>
     </div>
   </div>
 </template>
 
 <script>
+import { store } from "../store";
+
 export default {
   name: "MainFirst",
+  data() {
+    return {
+      store,
+    };
+  },
 };
 </script>
 
@@ -30,14 +40,13 @@ export default {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.box {
-  h2 {
-    line-height: 45px;
-  }
-  width: calc(100% / 3);
+h2 {
+  line-height: 45px;
+}
+.col-4 {
   margin: 30px;
-  img {
-    width: 100%;
-  }
+}
+img {
+  width: 100%;
 }
 </style>
