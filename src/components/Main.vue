@@ -3,6 +3,7 @@
   <MainSecond />
   <MainThird />
   <MainBig />
+  <Locations />
   <Order />
 </template>
 
@@ -12,6 +13,7 @@ import MainSecond from "./MainSecond.vue";
 import MainThird from "./MainThird.vue";
 import MainBig from "./MainBig.vue";
 import Order from "./Order.vue";
+import Locations from "./Locations.vue";
 export default {
   name: "Main",
   components: {
@@ -20,6 +22,7 @@ export default {
     MainThird,
     MainBig,
     Order,
+    Locations,
   },
 };
 </script>

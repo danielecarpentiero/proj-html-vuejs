@@ -61,4 +61,18 @@ export const store = reactive({
         "Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. Ut eu laoreet ex. Aliquam erat volutpat. Nullam quis sagittis nibh. Morbi consectetur ultricies ante ac congue, Donec Iorem erat, finibus in velit placerat, rutrum augue.",
     },
   ],
+  locations: [
+    {
+      img: "src/assets/img/new-york-bk.jpg",
+      place: "New York",
+      number: "1.800.458.556",
+      time: "9:00 AM - 6:00 PM",
+    },
+    {
+      img: "src/assets/img/london-bk.jpg",
+      place: "London",
+      number: "1.800.458.556",
+      time: "9:00 AM - 6:00 PM",
+    },
+  ],
 });
