@@ -10,7 +10,7 @@
 import { store } from "../store";
 
 export default {
-  name: "ThirdCookies",
+  name: "Cookies",
   data() {
     return {
       store,

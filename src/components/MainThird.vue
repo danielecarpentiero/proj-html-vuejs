@@ -13,18 +13,18 @@
           <button class="primary px-4 py-2">Shop All Products</button>
         </div>
       </div>
-      <ThirdCookies :sweeties="sweeties" />
+      <Cookies :sweeties="sweeties" />
     </div>
   </div>
 </template>
 
 <script>
-import ThirdCookies from "./ThirdCookies.vue";
+import Cookies from "./Cookies.vue";
 import { store } from "../store.js";
 export default {
   name: "MainThird",
   components: {
-    ThirdCookies,
+    Cookies,
   },
   data() {
     return {
