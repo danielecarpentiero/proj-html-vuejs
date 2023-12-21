@@ -11,9 +11,13 @@
       </button>
     </div>
     <div class="col-4" v-for="sweet in store.sweeties.slice(0, 2)">
-      <img :src="sweet.img" alt="" />
-      <h4 class="my-3">{{ sweet.name }}</h4>
-      <h6>{{ sweet.priceRange }}</h6>
+      <div class="image-container">
+        <img :src="sweet.img" alt="" />
+        <div class="info">
+          <h4 class="my-3">{{ sweet.name }}</h4>
+          <h6>{{ sweet.priceRange }}</h6>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -31,18 +35,46 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .container {
   margin-top: 100px;
   margin-bottom: 100px;
-}
-h2 {
-  line-height: 45px;
-}
-.col-4 {
-  margin: 30px;
-}
-img {
-  width: 100%;
+
+  .image-container {
+    position: relative;
+    margin: 30px;
+
+    img {
+      width: 100%;
+      transition: filter 0.3s ease-in-out;
+    }
+
+    .info {
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      h4,
+      h6 {
+        color: white;
+      }
+    }
+
+    &:hover {
+      img {
+        filter: brightness(80%);
+      }
+
+      .info {
+        opacity: 1;
+      }
+    }
+  }
+
+  h2 {
+    line-height: 45px;
+  }
 }
 </style>
