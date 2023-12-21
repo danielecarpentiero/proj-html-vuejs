@@ -8,11 +8,11 @@
         <h1 class="text-center my-5">{{ location.place }}</h1>
         <div class="info m-5 d-flex justify-content-between">
           <div class="phone">
-            <h6>call us</h6>
+            <h6 class="text-center">call us</h6>
             <h5>{{ location.number }}</h5>
           </div>
           <div class="time">
-            <h6>open all week</h6>
+            <h6 class="text-center">open all week</h6>
             <h5>{{ location.time }}</h5>
           </div>
           <button class="secondary my-2 px-4">View Map</button>
@@ -42,6 +42,9 @@ export default {
   width: 100%;
   img {
     width: 100%;
+  }
+  h5 {
+    color: #766d7c;
   }
 }
 
