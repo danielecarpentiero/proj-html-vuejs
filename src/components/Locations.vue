@@ -44,7 +44,7 @@ export default {
     width: 100%;
   }
   h5 {
-    color: #766d7c;
+    color: #979aaa;
   }
 }
 

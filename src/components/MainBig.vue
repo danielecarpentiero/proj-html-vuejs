@@ -28,7 +28,7 @@
         <div
           class="info d-flex align-items-start justify-content-end flex-column"
         >
-          <h6>manual ingredients selection</h6>
+          <h6>sweet & delicious</h6>
           <p>
             Cras consequat lectus vestibulum tortor pulvinar, quis euismod nist
             varius. Ut eu laoreet ex, Aliquam erat volutpat. Nullam quis
@@ -58,7 +58,7 @@
         <div
           class="info d-flex align-items-start justify-content-end flex-column"
         >
-          <h6>manual ingredients selection</h6>
+          <h6>baked to order & gift wrapped</h6>
           <p>
             Cras consequat lectus vestibulum tortor pulvinar, quis euismod nist
             varius. Ut eu laoreet ex, Aliquam erat volutpat. Nullam quis
@@ -113,7 +113,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
   }
 }
 
@@ -152,7 +152,6 @@ export default {
   background-size: cover;
 }
 
-/* Copying common styles for .first .main-text and .first .info */
 .first .main-text,
 .first .info,
 .second .main-text,
