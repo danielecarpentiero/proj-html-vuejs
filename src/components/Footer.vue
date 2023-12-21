@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="container d-flex">
-      <div class="left-footer col-6">
+      <div class="left-footer col-7">
         <HeaderLogo />
         <HeaderNavWrapper class="footer-nav my-5" />
         <h6 class="py-5 mx-4">
@@ -9,7 +9,7 @@
           | Powered by WordPress
         </h6>
       </div>
-      <div class="right-footer col-6">
+      <div class="right-footer col-5">
         <h3 class="text-end pb-3">Subscribe to our Newsletter!</h3>
         <div class="form d-flex justify-content-end my-5">
           <input
@@ -47,6 +47,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.footer-nav {
+  font-size: 1rem;
+}
+
 h6 {
   text-transform: lowercase !important;
   font-size: 14px !important;
