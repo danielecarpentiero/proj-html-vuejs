@@ -4,6 +4,7 @@
   <MainThird />
   <MainBig />
   <Locations />
+  <StayInTouch />
   <Order />
 </template>
 
@@ -14,6 +15,7 @@ import MainThird from "./MainThird.vue";
 import MainBig from "./MainBig.vue";
 import Order from "./Order.vue";
 import Locations from "./Locations.vue";
+import StayInTouch from "./StayInTouch.vue";
 export default {
   name: "Main",
   components: {
@@ -23,6 +25,7 @@ export default {
     MainBig,
     Order,
     Locations,
+    StayInTouch,
   },
 };
 </script>

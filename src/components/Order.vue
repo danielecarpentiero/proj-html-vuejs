@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container mt-5 d-flex flex-start flex-column">
-      <h6>try our seasonal products</h6>
+      <h6 class="mt-4">try our seasonal products</h6>
       <h1 class="title my-4">Order for pick-up or delivery to your home</h1>
       <button class="secondary mt-5">Shop Now</button>
     </div>
@@ -27,7 +27,7 @@ section {
 
     .title {
       font-size: 3.5rem;
-      width: 75%;
+      width: 60%;
       font-weight: 700;
       color: white;
     }

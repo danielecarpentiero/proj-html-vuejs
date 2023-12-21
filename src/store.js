@@ -4,7 +4,7 @@ export const store = reactive({
   sweeties: [
     {
       img: "src/assets/img/choco-chip-cookies-1200x1530.jpg",
-      name: "Choco Chip Cookies",
+      name: "Chocolate Chip Cookies",
       priceRange: "$19.99 - $39.00",
     },
     {
