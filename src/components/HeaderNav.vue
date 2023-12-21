@@ -22,9 +22,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 ul {
-  width: 100%;
+  width: 85%;
   li {
     color: #55328b;
     list-style-type: none;

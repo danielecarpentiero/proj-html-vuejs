@@ -1,11 +1,13 @@
 <template>
-  <MainFirst />
-  <MainSecond />
-  <MainThird />
-  <MainBig />
-  <Locations />
-  <StayInTouch />
-  <Order />
+  <main>
+    <MainFirst />
+    <MainSecond />
+    <MainThird />
+    <MainBig />
+    <Locations />
+    <StayInTouch />
+    <Order />
+  </main>
 </template>
 
 <script>

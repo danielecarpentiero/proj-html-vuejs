@@ -51,9 +51,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.header-nav {
-  width: 45%;
-}
-</style>

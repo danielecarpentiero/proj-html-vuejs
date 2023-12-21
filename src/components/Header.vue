@@ -1,8 +1,8 @@
 <template>
   <header>
     <div class="p-4 d-flex justify-content-between align-items-center">
-      <HeaderLogo />
-      <HeaderNavWrapper />
+      <HeaderLogo class="col-6" />
+      <HeaderNavWrapper class="col-6" />
     </div>
     <div class="ad m-5 p-5">
       <h6 class="mb-3">fresh & tasty bakery every day</h6>
